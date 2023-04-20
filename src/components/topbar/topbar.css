@@ -62,11 +62,11 @@
 }
 
 .link {
-  color:#e1f1f9;
+  color:#e1f1f9 !important;
 }
 
 .link:hover {
-  color: #ffe4b2;
+  color: #ffe4b2 !important;
 }
 
 .topImg {
