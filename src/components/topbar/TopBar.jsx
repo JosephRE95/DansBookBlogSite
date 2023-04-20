@@ -112,19 +112,11 @@ export default function Topbar() {
                       <Link className="link" variant="link" to="/" onClick={logout}>
                         LOG OUT
                       </Link>
-                    </li>
-                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                      <NavDropdown.Divider />
-                      <NavDropdown.Item id="dropdownContact">
-                        345lemaire@gmail.com
-                      </NavDropdown.Item>
-                    </NavDropdown>
-  
+                    </li>  
                     <div className="topRight">
                       <div id="searchBar">
                         <Row>
-                          <Col>
-                            <Button id='searchButton' variant="outline-success"><img src={process.env.PUBLIC_URL + '/Images/searchicon.png'} height="40px" alt="DanTheMan" /></Button>
+                          <Col >
                             <Form className="d-flex">
                               <Form.Control
                                 id="searchInput"
@@ -133,6 +125,7 @@ export default function Topbar() {
                                 className="d-sm-flex"
                                 aria-label="Search"
                                 onChange={handleChange} />
+                              <Button id='searchButton' variant="outline-success"><img src={process.env.PUBLIC_URL + '/Images/searchicon.png'} height="20px" alt="DanTheMan" /></Button>
                             </Form>
                           </Col>
                         </Row>
