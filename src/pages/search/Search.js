@@ -86,8 +86,8 @@ function Search() {
                                 VIEW MORE
                             </Link>
                         </span>
-                        <Link to={`/post/${p.postId}/Edit`} className="btn btn-primary mx-3">Edit</Link>
-                        <Button variant="danger" onClick={handleDeletePost.bind(this, p.postId)}>Delete</Button>
+                        <a href={`/post/${p.postId}/Edit`}><Button className="glow-on-hover">Edit</Button></a>
+                        <Button className="glow-on-hover" variant="danger" onClick={handleDeletePost.bind(this, p.postId)}>Delete</Button>
                     </div>
                 )
             }

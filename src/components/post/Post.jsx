@@ -80,8 +80,10 @@ export default function Post() {
                     <p className="postDesc">
                       {p.post}
                     </p>
-                    <Link to={`/post/${p.postId}/Edit`} className="btn btn-primary mx-3">Edit</Link>
-                    <Button variant="danger" onClick={handleDeletePost.bind(this, p.postId)}>Delete</Button>
+                    <div classname='postButtons'>
+                    <a href={`/post/${p.postId}/Edit`}><Button className="glow-on-hover">Edit</Button></a>
+                    <Button className="glow-on-hover" variant="danger" onClick={handleDeletePost.bind(this, p.postId)}>Delete</Button>
+                  </div>
                   </div>
                 )
               }
