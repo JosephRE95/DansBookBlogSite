@@ -63,6 +63,7 @@
 
 .link {
   color:#e1f1f9 !important;
+  padding: 1rem;
 }
 
 .link:hover {
@@ -105,7 +106,7 @@
   border-radius: 0px;
   /* margin-right: 10px; */
   /* margin-top: -1rem; */
-  background-color: transparent;
+  background-color: transparent ;
 }
 
 #searchInput:hover {
@@ -120,7 +121,10 @@
   background-color: transparent;
 }
 
-
+#basic-navbar-nav {
+  background-color:#2a3246;
+  padding: 3rem;
+}
 
 /* #searchButton:hover {
 background-color:#38435e;
@@ -129,3 +133,9 @@ border-radius: 100px;
 padding-left: 8px;
 padding-right: 8px; 
 } */
+
+#hamburger {
+  color: #ffe4b2;
+  background-color: #ffe4b2;
+  margin-right: 1rem;
+}

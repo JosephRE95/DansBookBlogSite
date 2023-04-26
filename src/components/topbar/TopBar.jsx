@@ -139,7 +139,7 @@ export default function Topbar() {
                 </Link>
               </div>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav"  id="hamburger" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto smallNav">
                 <Nav.Link className="link" to="/" href="/">
@@ -153,7 +153,7 @@ export default function Topbar() {
                   BOOK STORE
                 </Nav.Link>
               </Nav>
-              <NavDropdown title="CONTACT" id="basic-nav-dropdown">
+              <NavDropdown id="basic-nav-dropdown" title="CONTACT" >
                 <NavDropdown.Item id="dropdownContact">
                   345lemaire@gmail.com
                 </NavDropdown.Item>
